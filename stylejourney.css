@@ -80,3 +80,51 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+
+.sophomore-card {
+    background-image: url('resources/2year.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #005f73; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 95%; 
+    height: 500px;
+    margin: 0 auto; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    position: relative;
+}
+
+.sophomore-card::before {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+    border-radius: 10px; 
+    z-index: 1; 
+}
+
+.sophomore-card h2, .sophomore-card p {
+    position: relative; 
+    z-index: 2; 
+}
+
+.sophomore-card h2 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.sophomore-card p {
+    font-size: 26px; 
+    padding: 10px; 
+    border-radius: 5px;
+    text-align: center;
+}
