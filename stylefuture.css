@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #FFF5ED; 
+    background-color: #FFF5ED;
     font-family: "Playfair Display", serif;
     margin: 0;
     padding: 0;
@@ -45,3 +45,35 @@ nav a:hover {
     text-decoration: underline;
     background-color: #C0E4F6;
 }
+
+
+.future-vision {
+    background-image: url('resources/bg future.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.overlay-text h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.overlay-text p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
